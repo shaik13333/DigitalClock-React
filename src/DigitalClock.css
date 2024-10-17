@@ -1,0 +1,27 @@
+.clock-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #f5f7fa, #c3cfe2); /* Light gradient for background */
+}
+
+.clock {
+    background-color: #ffffff; /* White background for clock */
+    padding: 20px 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow for 3D effect */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transitions for hover effect */
+}
+
+.clock:hover {
+    transform: translateY(-10px); /* Lift effect on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
+}
+
+.Time {
+    font-size: 3rem; /* Large font size for time display */
+    color: #333; /* Dark color for the time text */
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+}
